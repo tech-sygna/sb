@@ -9,9 +9,9 @@ env:
 phases:
   install:
     commands:
-      - sudo apt update
-      - sudo apt-get install docker.io
-      - sudo service docker status
+      - apt update
+      - apt-get install docker.io
+      - service docker status
 
   build:
     commands:
